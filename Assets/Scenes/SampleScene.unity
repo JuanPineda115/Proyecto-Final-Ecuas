@@ -293,7 +293,7 @@ MonoBehaviour:
   backwardButton: 115
   rightButton: 100
   leftButton: 97
-  cursorSensitivity: 0.025
+  cursorSensitivity: 0.01
   cursorToggleAllowed: 1
   cursorToggleButton: 27
 --- !u!20 &282840813
@@ -486,7 +486,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ej\xE9rcito Azul: 0"
+  m_Text: 
 --- !u!222 &644171474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -595,103 +595,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b366d5d43a6b6f54cb2fca43fee3f8c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &902560758
+--- !u!1 &1536537994
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 902560759}
-  - component: {fileID: 902560761}
-  - component: {fileID: 902560760}
+  - component: {fileID: 1536537995}
+  - component: {fileID: 1536537998}
+  - component: {fileID: 1536537997}
   m_Layer: 5
-  m_Name: text_redArmyEq
+  m_Name: battleStatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &902560759
+--- !u!224 &1536537995
 RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 902560758}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-  m_Children: []
-  m_Father: {fileID: 1563327570}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 258, y: -158.00003}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &902560760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 902560758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Ecuaci\xF3n Roja: 0"
---- !u!222 &902560761
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 902560758}
---- !u!1 &1081495243
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1081495244}
-  - component: {fileID: 1081495246}
-  - component: {fileID: 1081495245}
-  m_Layer: 5
-  m_Name: text_blueArmyEq
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1081495244
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1081495243}
+  m_GameObject: {fileID: 1536537994}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -699,17 +625,17 @@ RectTransform:
   m_Father: {fileID: 1563327570}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -288, y: -158}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 455, y: -152}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1081495245
+--- !u!114 &1536537997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1081495243}
+  m_GameObject: {fileID: 1536537994}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -724,11 +650,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 75cd6da8d3043fc4986640acf0d9dd09, type: 3}
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -736,13 +662,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ecuaci\xF3n azul: 0"
---- !u!222 &1081495246
+  m_Text: 
+--- !u!222 &1536537998
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1081495243}
+  m_GameObject: {fileID: 1536537994}
 --- !u!1 &1563327566
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,8 +756,7 @@ RectTransform:
   m_Children:
   - {fileID: 644171472}
   - {fileID: 407531215}
-  - {fileID: 1081495244}
-  - {fileID: 902560759}
+  - {fileID: 1536537995}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -872,8 +797,7 @@ MonoBehaviour:
   battleSpeed: 10
   blueArmyText: {fileID: 644171473}
   redArmyText: {fileID: 407531216}
-  redArmyEq: {fileID: 902560760}
-  blueArmyEq: {fileID: 1081495245}
+  battleOutcomeText: {fileID: 1536537997}
   redSoldierPrefab: {fileID: 1015552279754684, guid: f31e37c60484d3649abb002f806111f2,
     type: 2}
   blueSoldierPrefab: {fileID: 1530301610602304, guid: 83c99ce5288b4f6438b97ede581ec584,
